@@ -1,14 +1,4 @@
 program main
-
-  ! This is a skeleton code for the numerical solution of systems of N stochastic differential equations
-  ! The basic and essential variables and tasks are included. The specalization to a specific problem should be easy following the instructions
-  ! The parallelization is achieved using MPI and is isolated to the main.f90 file. Therefore all that is requiered from the user is the implementation
-  !       of the equations to be solved.
-  ! The solver included follows the Platen 2.0 weak scheme for the case in which there are no stocahstic couplings between the different unknown functions
-  !       ( no off-diagonal terms in the B matrix containing the stochastic terms)
-
-  ! This particular file is the main body of the code. It should be reduced as much as possible to simply a collection of function calls.
-
   ! Created by Joseph John Fernández, ULL (2017)
 
   use mpi
